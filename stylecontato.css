@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+  }
+  
+  input, label {
+    display: block;
+    outline: none;
+    width: 50%;
+    position: relative;
+    top: 35px;
+  }
+
+  .h1especial{
+
+    text-align: center;
+    color: #323232;
+    font-size: 40px;
+    position: relative;
+    top: 20px;
+
+  }
+
+
+
+  a {
+    color: #323232;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .full-box {
+    flex: 1 1 100%;
+    position: relative;
+    left: 200px;
+
+    
+  }
+
+  .full-box2 {
+    flex: 1 1 100%;
+    position: relative;
+    left: 400px;
+    text-align: center;
+
+    
+  }
+  
+  .half-box {
+    flex: 1 1 45%;
+    position: relative;
+    left: 200px;
+    
+  }
+
+  .half-box-esp1 {
+    flex: 1 1 50%;
+    position: relative;
+    left: 200px;
+    top: 50px;
+    }
+
+    .half-box-esp2 {
+        flex: 1 1 50%;
+        position: relative;
+        left: 750px;
+        top: -50px;
+
+        
+        }
+  
+  .spacing {
+    margin-right: 2.5%;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+  }
+  
+  input:focus {
+    border-color: #323232;
+  }
+  
+  input[type="submit"] {
+    background-color: #323232;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  #agreement {
+    margin-right: 5px;
+  }
+  
+  #agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .error-validation {
+    color: #ff1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: 12px;
+  }
+  
+  .template {
+    display: none;
+  }
+
+
+
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+form {
+	margin: 40px 0;
+	position: relative;
+	left: 30px;
+
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+
+
+table {
+	margin: 20px 0 40px;
+	position: relative;
+	left: 700px;
+    top: 35px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+
+
+
+ /* transição de icones de redes sociais  */
+
+ .ICONE_TRAN {
+    margin: 50px 0 0 50px;
+    position: fixed;
+    bottom: 10px;
+    left: -30px;
+   
+}
+.ICONE_TRAN li {
+    float: left;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    margin-right: 20px;
+
+}
+.ICONE_TRAN li:last-child {
+    margin: 0;
+}
+.ICONE_TRAN li img:first-child {
+    float: left;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+.ICONE_TRAN li:hover img:first-child {
+    margin: -100px 0 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.ICONE_REDE {
+
+	width: 48px;
+    height: 48px;
+
+
+}
+
+
+/* FIM da transição de icones de redes sociais  */
+
+/* Logo Drummond */
+
+.LOGO-DRUMMOND {
+
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 128px;
+	height: 64px;
+}
+
+/* FIM Logo Drummond */
